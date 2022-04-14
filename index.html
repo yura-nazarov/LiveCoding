@@ -14,16 +14,28 @@
 </head>
 
 <body>
-
+   <style>
+      body {
+         /* max-width: 800px;
+         margin: auto; */
+      }
+   </style>
    <header class="header">
-      <div class="wrapper">
-         <a class="logo" href="#">Logo</a>
+      <div class="wrapper header__wrapper">
+         <a class="logo" href="#">
+            <object type="image/svg+xml" data="./img/Logo.svg" class="logo-object">
+
+            </object>
+         </a>
+         <!-- <a class="logo" href="#">
+            <img src="./img/Logo.png" alt="">
+         </a> -->
          <nav class="header_navigation">
             <ul class="navigation">
-               <li>Home</li>
-               <li>Services</li>
-               <li>About</li>
-               <li>Product</li>
+               <li class="navigation__link">Home</li>
+               <li class="navigation__link">Services</li>
+               <li class="navigation__link">About</li>
+               <li class="navigation__link">Product</li>
             </ul>
          </nav>
          <div class="header__buttons">
@@ -34,12 +46,12 @@
    </header>
 
    <section class="promo">
-      <div class="wrapper">
+      <div class="wrapper promo__wrapper">
          <div class="promo__content">
-            <h1>
+            <h1 class="promo__title">
                The Design Thinking superpowers
             </h1>
-            <p>
+            <p class="promo__text">
                Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your
                next user experience.
             </p>
@@ -187,6 +199,7 @@
                   <h5> Kathy Rosenberg </h5>
                   <p class="employee__title"> Product Manager </p>
                   <a href="mailto:kathyr@gmail.com">kathyr@gmail.com</a>
+                  <img src="/img/about_us/Avator1.png" alt="Kathy Rosenberg">
                </div>
             </div>
             <div class="employee block-shadowed">
@@ -194,6 +207,7 @@
                   <h5>Alexandra Boyarskaya</h5>
                   <p class="employee__title">Support Marketing Specialist</p>
                   <a href="mailto:alexandrab@gmail.com">alexandrab@gmail.com</a>
+                  <img src="/img/about_us/Avator2.png" alt="Alexandra Boyarskaya">
                </div>
             </div>
             <div class="employee block-shadowed">
@@ -201,6 +215,7 @@
                   <h5>Melani Amini</h5>
                   <p class="employee__title"> Product Manager </p>
                   <a href="mailto:melania@gmail.com">melania@gmail.com</a>
+                  <img src="/img/about_us/Avator3.png" alt="Melani Amini">
                </div>
             </div>
          </div>
