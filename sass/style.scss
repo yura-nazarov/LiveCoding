@@ -7,12 +7,19 @@
 @import "base/base";
 @import "base/buttons";
 @import "base/logo";
+@import "base/icons";
+@import "base/tags";
 
 //layouts
-@import "layouts/header";
 @import "layouts/wrapper";
+@import "layouts/header";
+@import "layouts/columns";
+@import "layouts/footer";
 
 //components
 @import "components/contact-us";
 @import "components/promo";
 @import "components/navigation";
+@import "components/tools";
+@import "components/strategies";
+@import "components/about-us";

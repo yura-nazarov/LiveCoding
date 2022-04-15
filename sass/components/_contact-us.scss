@@ -1,3 +1,37 @@
 .contact-us {
    background-color: $color-background;
+   padding: 62px 82px;
+}
+
+.contact-us__form {
+
+   input,
+   textarea {
+      border: none;
+      border: 1px solid $color-light;
+      background-color: $color-light;
+      padding: 10px 22px;
+      border-radius: 5px;
+
+      &:focus {
+         border-color: $color-primary;
+         outline: none;
+      }
+   }
+
+   textarea {
+      width: 100%;
+      height: 160px;
+      resize: none;
+   }
+}
+
+.contact-us__line {
+   margin-bottom: 19px;
+}
+
+.contact-us__button {
+   >* {
+      min-width: 117px;
+   }
 }

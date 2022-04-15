@@ -1,5 +1,6 @@
 .button {
-   font-family: "Open Sans", Verdana, sans-serif;
+
+   @extend %fort-primary;
    font-style: normal;
    font-weight: 600;
    font-size: 1.6rem;
@@ -30,4 +31,15 @@
          border-color: $color-additional;
       }
    }
+}
+
+.link-button {
+   color: $color-primary;
+   @extend %font-add;
+   align-items: center;
+   display: inline-flex;
+}
+
+.link-button__text {
+   margin-left: 9px;
 }

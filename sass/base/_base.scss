@@ -3,27 +3,32 @@ html {
 }
 
 body {
-   font-size: 1.6rem;
-   font-family: "Open Sans", Verdana, sans-serif;
+   @extend %fort-primary;
+   @include font ($size: 1.6rem, $height: 2.6rem, $weight: normal);
 }
 
 h1 {
    @extend %font-add;
-   @include font ($size: 4.4rem, $height: 5.4rem, $weight: 700)
+   @include font ($size: 4.4rem, $height: 5.4rem, $weight: 700);
 }
 
 h2 {
-   @include font (3.4rem, 5.4rem, 700)
+   @include font (3.4rem, 5.4rem, 700);
 }
 
 h3 {
-   @include font (2.4rem, 3.4rem, 700)
+   @include font (2.4rem, 3.4rem, 700);
 }
 
 h4 {
-   @include font (2.2rem, 3.0rem, 600, normal)
+   @include font (2.2rem, 3.0rem, 600, normal);
 }
 
 h5 {
-   @include font (1.6rem, 2.6rem, 600, normal)
+   @include font (1.6rem, 2.6rem, 600, normal);
+}
+
+.block-shadowed {
+   box-shadow: (0px 4px 20px rgba(0, 0, 0, 0.05));
+   border-radius: 10px;
 }
